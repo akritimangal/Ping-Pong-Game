@@ -4,7 +4,7 @@
 This is a simple implementation of a Ping Pong game using HTML, CSS, and JavaScript. The game consists of a ball and two paddles—one for the player and one for the computer. The player controls one paddle using mouse movement, while the computer-controlled paddle follows the ball's vertical position. The objective is to keep the ball bouncing between the paddles and score points by making the opponent miss the ball.
 
 # Demo
-Watch a video demo of the game on YouTube: Ping Pong Game Demo
+Play it live here : [LINK](https://ping-pong-game-alpha.vercel.app/)
 
 
 # Screenshots
