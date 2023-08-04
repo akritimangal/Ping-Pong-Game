@@ -9,6 +9,7 @@ Watch a video demo of the game on YouTube: Ping Pong Game Demo
 
 # Screenshots
 
+![Start Screen](https://github.com/akritimangal/Ping-Pong-Game/blob/main/images/pp1.jpg?raw=true)
 
 # How to Play
 Open the game in your web browser.
