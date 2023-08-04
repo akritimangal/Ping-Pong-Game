@@ -50,7 +50,9 @@ export default class Ball {
       this.direction.y *= -1;
     }
     //bounding ball from left and right
-    if (rect.right >= window.innerWidth || rect.left <= 0) {
+    //loops through all different paddle rectangles if any of them return true
+    // for collision function then return true for entire thing.
+    if (paddleRects.some(r=>isCollision(r, rect))) {
       this.direction.x *= -1;
     }
   }
@@ -58,4 +60,12 @@ export default class Ball {
 
 function randomNumberBetween(min, max) {
   return Math.random() * (max - min) + min;
+}
+function isCollision(rect1,rect2){
+    return( 
+        rect1.left<=rect2.right && 
+        rect1.right>=rect2.left &&
+        rect1.top<=rect2.bottom &&
+        rect1.bottom>=rect2.top
+    )
 }

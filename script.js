@@ -12,8 +12,11 @@ function update(time) {
   if (lastTime != null) {
     const delta = time - lastTime;
     //update code
-    //ball.update(delta,[player-paddle,computer-paddle]);
+    ball.update(delta, [playerPaddle.rect(), computerPaddle.rect()]);
     computerPaddle.update(delta, ball.y);
+    const hue=parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--hue"));
+    //changing colour with time passing
+    document.documentElement.style.setProperty("--hue",hue+delta*0.01);
 
     if (isLose()) handleLose();
   }
