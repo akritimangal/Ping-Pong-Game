@@ -20,12 +20,12 @@ Play it live here : [LINK](https://ping-pong-game-alpha.vercel.app/)
 -Keep the ball bouncing between the paddles to score points.
 -If the ball goes past your paddle, the opponent gains a point.
 
-##Getting Started
+## Getting Started
 
 -To run the game locally, follow these steps:
 -Clone this repository to your local machine.
 -Open the index.html file in your web browser.
-##Technologies Used
+## Technologies Used
 -HTML
 -CSS
 -JavaScript
