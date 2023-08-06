@@ -31,7 +31,7 @@ Play it live here : [LINK](https://ping-pong-game-alpha.vercel.app/)
 - JavaScript
 
 
-##License
+## License
 This project is licensed under the MIT License.
 
 Have fun playing the Ping Pong game! If you encounter any issues or have suggestions for improvement, feel free to raise an issue or submit a pull request. Happy gaming! 🏓🎮
